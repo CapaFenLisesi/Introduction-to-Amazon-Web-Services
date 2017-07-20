@@ -9,3 +9,8 @@
 4. S3
 5. DynamoDB
 6. Lambda? Elastic Beanstalk? 
+
+# Exercises
+1. Wordpress on EC2
+1. Node.js app
+1. Static website
