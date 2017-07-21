@@ -2,6 +2,7 @@
 
 ## Contents
 1. Overview
+1. Certification
 2. Console
 3. SDK
 2. IAM
