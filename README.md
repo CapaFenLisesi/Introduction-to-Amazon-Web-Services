@@ -3,6 +3,7 @@
 ## Contents
 1. Overview
 1. Certification
+1. Documentation
 2. Console
 3. SDK
 2. IAM
@@ -12,6 +13,7 @@
 6. Lambda? Elastic Beanstalk? 
 
 # Exercises
-1. Wordpress on EC2
-1. Node.js app
 1. Static website
+1. Node.js app
+1. Wordpress on EC2
+
