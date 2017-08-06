@@ -12,6 +12,8 @@
 4. S3
 5. DynamoDB
 6. Lambda? Elastic Beanstalk? 
+1. [Resources](#resources)
+1. [Links](#links)
 
 ## Overview
 
@@ -19,7 +21,9 @@
 
 Let's watch the [video](https://aws.amazon.com/what-is-cloud-computing/) on AWS and another one on [Youtube](https://www.youtube.com/watch?v=ae_DKNwK_ms)  
 
-![alt text](https://github.com/Michael-Antczak/Introduction-to-Amazon-Web-Services/blob/master/resources/iaas-paas-saas.png "IAAS vs PAAS vs SAAS") 
+![alt text](https://github.com/Michael-Antczak/Introduction-to-Amazon-Web-Services/blob/master/resources/iaas-paas-saas.png "IAAS vs PAAS vs SAAS")  
+
+Watch the course in the [Resources](#resources) section.  
 
 ### So what is Amazon Web Services? 
 
@@ -106,6 +110,9 @@ But where to start? [AWS Certified Developer - Associate](https://aws.amazon.com
 1. Static website
 1. Node.js app
 1. Wordpress on EC2
+
+# Resources
+[Introduction to Cloud Computing](https://acloud.guru/learn/intro-cloud-computing)
 
 # Links
 
