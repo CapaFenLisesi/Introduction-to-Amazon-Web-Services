@@ -39,7 +39,9 @@ The key points:
 - cloud
 - for everybody
 - 12 months free tier
-- access through the browser, console or code
+- access through the browser, console or code  
+
+Watch the [AWS Tech Essentials](#resources) course later on. 
 
 ### What can YOU do with AWS? 
 - host your own website
@@ -112,8 +114,8 @@ But where to start? [AWS Certified Developer - Associate](https://aws.amazon.com
 1. Wordpress on EC2
 
 # Resources
-[Introduction to Cloud Computing](https://acloud.guru/learn/intro-cloud-computing)
-
+[Introduction to Cloud Computing](https://acloud.guru/learn/intro-cloud-computing)  
+[AWS Tech Essentials](https://acloud.guru/learn/aws-technical-essentials)  
 # Links
 
 ### AWS
