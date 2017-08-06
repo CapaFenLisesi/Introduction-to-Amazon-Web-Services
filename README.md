@@ -2,7 +2,7 @@
 
 ## Contents
 1. [Overview](https://github.com/Michael-Antczak/Introduction-to-Amazon-Web-Services/blob/master/README.md#overview)
-1. Pricing and Free Tier
+1. [Pricing and Free Tier](https://github.com/Michael-Antczak/Introduction-to-Amazon-Web-Services/blob/master/README.md#pricing-and-free-tier)
 1. Certification
 1. Documentation
 2. Console
