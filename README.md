@@ -17,7 +17,9 @@
 
 ### What is Cloud Computing? 
 
-Let's watch the [video](https://aws.amazon.com/what-is-cloud-computing/) on AWS and another one on [Youtube](https://www.youtube.com/watch?v=ae_DKNwK_ms)
+Let's watch the [video](https://aws.amazon.com/what-is-cloud-computing/) on AWS and another one on [Youtube](https://www.youtube.com/watch?v=ae_DKNwK_ms)  
+
+![alt text](https://github.com/Michael-Antczak/Introduction-to-Amazon-Web-Services/blob/master/resources/iaas-paas-saas.png "IAAS vs PAAS vs SAAS") 
 
 ### So what is Amazon Web Services? 
 
