@@ -3,7 +3,8 @@
 ## Contents
 1. Overview
 1. Certification
-1. Pricing
+1. Create an account
+1. Pricing and Free Tier
 1. Documentation
 2. Console
 3. SDK
