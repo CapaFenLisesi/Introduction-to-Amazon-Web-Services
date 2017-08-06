@@ -1,7 +1,7 @@
 # Introduction to Amazon Web Services
 
 ## Contents
-1. Overview
+1. [Overview](https://github.com/Michael-Antczak/Introduction-to-Amazon-Web-Services/blob/master/README.md#overview)
 1. Pricing and Free Tier
 1. Certification
 1. Documentation
@@ -86,6 +86,14 @@ Take as an example **EU Ireland Region**
 ### Exercise
 Open a [new account](https://www.amazon.com/ap/signin?openid.assoc_handle=aws&openid.return_to=https%3A%2F%2Fsignin.aws.amazon.com%2Foauth%3Fresponse_type%3Dcode%26client_id%3Darn%253Aaws%253Aiam%253A%253A015428540659%253Auser%252Fawssignupportal%26redirect_uri%3Dhttps%253A%252F%252Fportal.aws.amazon.com%252Fbilling%252Fsignup%253Fredirect_url%253Dhttps%25253A%25252F%25252Faws.amazon.com%25252Fregistration-confirmation%2526state%253DhashArgs%252523%2526isauthcode%253Dtrue%26noAuthCookie%3Dtrue&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&action=&disableCorpSignUp=&clientContext=&marketPlaceId=&poolName=&authCookies=&pageId=aws.ssop&siteState=pre-register%2Cen_US&accountStatusPolicy=P1&sso=&openid.pape.preferred_auth_policies=MultifactorPhysical&openid.pape.max_auth_age=120&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&server=%2Fap%2Fsignin%3Fie%3DUTF8&accountPoolAlias=&forceMobileApp=0&language=en_US&forceMobileLayout=0). 
 
+# Pricing and Free Tier
+
+How much can you get for [free](https://aws.amazon.com/free/?nc2=h_l2_cc)? A lot!
+
+What if you have to [pay](https://aws.amazon.com/pricing/services/)? 
+
+Learn to use [Total Cost of Ownership (TCO) Calculators](https://aws.amazon.com/tco-calculator/) 
+
 # Exercises
 1. Static website
 1. Node.js app
@@ -99,6 +107,7 @@ Open a [new account](https://www.amazon.com/ap/signin?openid.assoc_handle=aws&op
 [Getting Started](https://aws.amazon.com/getting-started/resource-center/?nc2=h_ql_ny_livestream_blu_b_t2)  
 [Build a Serverless Web Application](https://aws.amazon.com/getting-started/serverless-web-app/)  
 [Deploy a Node.js Web App](https://aws.amazon.com/getting-started/projects/deploy-nodejs-web-app/)  
+[Cloud Services Pricing](https://aws.amazon.com/pricing/services/)  
 [Startups](https://aws.amazon.com/startups/)  
 [All Customer Success Stories](https://aws.amazon.com/solutions/case-studies/all/)
 
