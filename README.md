@@ -1,9 +1,9 @@
 # Introduction to Amazon Web Services
 
 ## Contents
-1. [Overview](https://github.com/Michael-Antczak/Introduction-to-Amazon-Web-Services/blob/master/README.md#overview)
-1. [Pricing and Free Tier](https://github.com/Michael-Antczak/Introduction-to-Amazon-Web-Services/blob/master/README.md#pricing-and-free-tier)
-1. Certification
+1. [Overview](#overview)
+1. [Pricing and Free Tier](#pricing-and-free-tier)
+1. [Certification](#certification)
 1. Documentation
 2. Console
 3. SDK
@@ -94,6 +94,12 @@ What if you have to [pay](https://aws.amazon.com/pricing/services/)?
 
 Learn to use [Total Cost of Ownership (TCO) Calculators](https://aws.amazon.com/tco-calculator/) 
 
+# Certification
+
+What if you decide to become an AWS expert? You may want to become [certified](https://aws.amazon.com/certification/our-certifications/).
+
+But where to start? [AWS Certified Developer - Associate](https://aws.amazon.com/certification/certified-developer-associate/)
+
 # Exercises
 1. Static website
 1. Node.js app
@@ -110,6 +116,7 @@ Learn to use [Total Cost of Ownership (TCO) Calculators](https://aws.amazon.com/
 [Cloud Services Pricing](https://aws.amazon.com/pricing/services/)  
 [Startups](https://aws.amazon.com/startups/)  
 [All Customer Success Stories](https://aws.amazon.com/solutions/case-studies/all/)
+[AWS Certifications](https://aws.amazon.com/certification/our-certifications/)
 
 ### Others
 [5 Numbers That Illustrate the Mind-Bending Size of Amazon's Cloud](https://www.bloomberg.com/news/2014-11-14/5-numbers-that-illustrate-the-mind-bending-size-of-amazon-s-cloud.html)  
