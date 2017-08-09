@@ -4,7 +4,7 @@
 1. [Overview](#overview)
 1. [Pricing and Free Tier](#pricing-and-free-tier)
 1. [Certification](#certification)
-1. Documentation
+1. [Documentation](#documentation)
 2. Console
 3. SDK
 2. IAM
@@ -107,6 +107,12 @@ Learn to use [Total Cost of Ownership (TCO) Calculators](https://aws.amazon.com/
 What if you decide to become an AWS expert? You may want to become [certified](https://aws.amazon.com/certification/our-certifications/).
 
 But where to start? [AWS Certified Developer - Associate](https://aws.amazon.com/certification/certified-developer-associate/)
+
+# Documentation
+
+Where to start? Look at the full [documentation](https://aws.amazon.com/documentation/?nc2=h_ql_ny_livestream_blu_t5) for every service. 
+
+The AWS Glossary is [here](http://docs.aws.amazon.com/general/latest/gr/glos-chap.html)
 
 # Exercises
 1. Static website
