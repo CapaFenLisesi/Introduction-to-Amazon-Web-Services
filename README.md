@@ -5,7 +5,7 @@
 1. [Pricing and Free Tier](#pricing-and-free-tier)
 1. [Certification](#certification)
 1. [Documentation](#documentation)
-2. Console
+2. [Console](#console)
 3. SDK
 2. IAM
 3. EC2
@@ -112,7 +112,17 @@ But where to start? [AWS Certified Developer - Associate](https://aws.amazon.com
 
 Where to start? Look at the full [documentation](https://aws.amazon.com/documentation/?nc2=h_ql_ny_livestream_blu_t5) for every service. 
 
-The AWS Glossary is [here](http://docs.aws.amazon.com/general/latest/gr/glos-chap.html)
+The AWS Glossary is [here](http://docs.aws.amazon.com/general/latest/gr/glos-chap.html)  
+
+# Console
+
+Ok, it's time to log into the AWS account. Point your browser to the following address:   
+
+https://cyf-scotland.signin.aws.amazon.com/console   
+ 
+Use the username and password that was give to you. 
+
+
 
 # Exercises
 1. Static website
