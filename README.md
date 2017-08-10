@@ -7,9 +7,10 @@
 1. [Documentation](#documentation)
 1. [Console](#console)
 1. [S3](#s3)
+1. [IAM](#iam)
+1. [EC2](#ec2)
 1. SDK
-2. IAM
-3. EC2
+
 5. DynamoDB
 6. Lambda? Elastic Beanstalk? 
 1. [Resources](#resources)
@@ -79,6 +80,8 @@ It is [massive](https://aws.amazon.com/products/?nc2=h_ql_ny_livestream_blu_t2).
 - Networking
 - etc.
 
+The very basic services to start with are in my opinion: **IAM**, **S3** and **EC2**. 
+
 In terms of the physical [infrastructure](https://aws.amazon.com/about-aws/global-infrastructure/) we talk about **Regions** and **Availability Zones**    
 
 A **Region** is a physical location in the world where we have multiple Availability Zones.   
@@ -120,7 +123,7 @@ Ok, it's time to log into the AWS account. Point your browser to the following a
 
 https://cyf-scotland.signin.aws.amazon.com/console   
  
-Use the username and password that was give to you. 
+Use the username and password that was given to you. 
 
 # S3
 
@@ -130,10 +133,10 @@ It is designed to deliver **99.999999999% durability**. S3 guarantees **99.9% mo
 
 What does it mean?  
 **Durability** - if you store 10,000 objects with Amazon S3, you can on average expect to incur a loss of a single object once every 10,000,000 years.  
-**Availability** - that is, not more than 43 minutes of downtime per month.
+**Availability** - that is, not more than 43 minutes of downtime per month.  
 **Size of objects** - up to 5 terabytes in size, each accompanied by up to 2 kilobytes of metadata. What is metadata? 
 
-**Bucket** - a container for stored objects. Every object is contained in a bucket. For example, if the object named **photos/puppy.jpg** is stored in the **johnsmith** bucket, then authorized users can access the object with the URL http://johnsmith.s3.amazonaws.com/photos/puppy.jpg.
+**Bucket** - a container for stored objects. Every object is contained in a bucket. For example, if the object named **photos/puppy.jpg** is stored in the **johnsmith** bucket, then authorized users can access the object with the URL http://johnsmith.s3.amazonaws.com/photos/puppy.jpg.  
 
 ### Exercise - basics of S3
 1. go to S3 service
@@ -163,6 +166,12 @@ Go to http://docs.aws.amazon.com/AmazonS3/latest/dev/HostingWebsiteOnS3Setup.htm
 
 ### Exercise
 Now get one of your existing websites and make it live in a new bucket. 
+
+# EC2
+Now, try to go to **EC2** service.
+
+# IAM 
+Go to **IAM** service.
 
 # Exercises
 1. Node.js app
