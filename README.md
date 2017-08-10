@@ -140,14 +140,15 @@ Use the username and password that was given to you.
 
 > **Amazon Simple Storage Service (Amazon S3)** makes it simple and practical to collect, store, and analyze data - regardless of format – all at massive scale. S3 is **object storage** built to store and retrieve any amount of data from anywhere – web sites and mobile apps, corporate applications, and data from IoT sensors or devices.   
 
-It is designed to deliver **99.999999999% durability**. S3 guarantees **99.9% monthly uptime**.
-
-What does it mean?  
-**Durability** - if you store 10,000 objects with Amazon S3, you can on average expect to incur a loss of a single object once every 10,000,000 years.  
-**Availability** - that is, not more than 43 minutes of downtime per month.  
-**Size of objects** - up to 5 terabytes in size, each accompanied by up to 2 kilobytes of metadata. What is metadata? 
-
-**Bucket** - a container for stored objects. Every object is contained in a bucket. For example, if the object named **photos/puppy.jpg** is stored in the **johnsmith** bucket, then authorized users can access the object with the URL http://johnsmith.s3.amazonaws.com/photos/puppy.jpg.  
+### Keys terms   
+#### 99.999999999% durability
+If you store 10,000 objects with Amazon S3, you can on average expect to lose a single object once every 10,000,000 years.  
+#### 99.9% monthly uptime - availability
+Not more than 43 minutes of downtime per month.  
+#### Size of objects
+Up to 5 terabytes in size, each accompanied by up to 2 kilobytes of metadata. What is metadata? 
+#### Bucket 
+A container for stored objects. Every object is contained in a bucket. For example, if the object named **photos/puppy.jpg** is stored in the **johnsmith** bucket, then authorized users can access the object with the URL http://johnsmith.s3.amazonaws.com/photos/puppy.jpg.  
 
 ### Exercise - basics of S3
 1. go to S3 service
@@ -190,7 +191,7 @@ So what it does? Check the Introduction in the [docs](http://docs.aws.amazon.com
 
 Let's go to **IAM** service now.
 
-## Keys terms   
+### Keys terms   
 #### Root user 
 Never use it for everyday work in AWS. Always create an admin account for yourself.    
 #### IAM users 
@@ -223,6 +224,7 @@ Can you access and a create table in DynamoDB? If no, why not?
 Finish off with deleting the groups that you created. 
 
 # EC2
+What is EC2? 
 
 
 [Back to top](#contents)  
