@@ -5,11 +5,11 @@
 1. [Pricing and Free Tier](#pricing-and-free-tier)
 1. [Certification](#certification)
 1. [Documentation](#documentation)
-2. [Console](#console)
-3. SDK
+1. [Console](#console)
+1. [S3](#s3)
+1. SDK
 2. IAM
 3. EC2
-4. S3
 5. DynamoDB
 6. Lambda? Elastic Beanstalk? 
 1. [Resources](#resources)
@@ -122,10 +122,49 @@ https://cyf-scotland.signin.aws.amazon.com/console
  
 Use the username and password that was give to you. 
 
+# S3
 
+> **Amazon Simple Storage Service (Amazon S3)** makes it simple and practical to collect, store, and analyze data - regardless of format – all at massive scale. S3 is **object storage** built to store and retrieve any amount of data from anywhere – web sites and mobile apps, corporate applications, and data from IoT sensors or devices.   
+
+It is designed to deliver **99.999999999% durability**. S3 guarantees **99.9% monthly uptime**.
+
+What does it mean?  
+**Durability** - if you store 10,000 objects with Amazon S3, you can on average expect to incur a loss of a single object once every 10,000,000 years.  
+**Availability** - that is, not more than 43 minutes of downtime per month.
+**Size of objects** - up to 5 terabytes in size, each accompanied by up to 2 kilobytes of metadata. What is metadata? 
+
+**Bucket** - a container for stored objects. Every object is contained in a bucket. For example, if the object named **photos/puppy.jpg** is stored in the **johnsmith** bucket, then authorized users can access the object with the URL http://johnsmith.s3.amazonaws.com/photos/puppy.jpg.
+
+### Exercise - basics of S3
+1. go to S3 service
+1. click **Create bucket**
+1. type a letter **t**. What happened? 
+1. type **test** and hit create. What happened? 
+1. type **test%^$**. What happened? 
+1. use the following format for the bucket name **cyf-{YOUR_NAME}-{TODAYS_DATE}** or anything that works
+1. create a new file inside any folder and call it **index.html**. Add a simple h1 tag with **Hello World!** inside.
+1. upload to S3
+1. now try to access the file in the browser. Did it work?
+1. go to the file, the Permissions -> Public access -> Read object
+1. now create another file called **home.html** and add another h1 **Hi, I am home**
+1. try to access the file. Did it work? 
+1. repeat the steps
+1. delete the bucket
+
+How much does it cost? [Pricing](https://aws.amazon.com/s3/pricing/)
+
+### Exercise - Setting up a Static Website
+Go to http://docs.aws.amazon.com/AmazonS3/latest/dev/HostingWebsiteOnS3Setup.html and follow the steps.
+1. create a new bucket
+1. open bucket Properties -> Static Website Hosting -> Enable
+1. copy the endpoint. Can we access it in the browser? 
+1. create bucket policy
+1. upload a new index.html file. Does it work now? 
+
+### Exercise
+Now get one of your existing websites and make it live in a new bucket. 
 
 # Exercises
-1. Static website
 1. Node.js app
 1. Wordpress on EC2
 
