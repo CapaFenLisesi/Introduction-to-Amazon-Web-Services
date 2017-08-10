@@ -180,13 +180,52 @@ Now get one of your existing websites and make it live in a new bucket.
 
 [Back to top](#contents)
 
-# EC2
-Now, try to go to **EC2** service.
-
-[Back to top](#contents)  
 
 # IAM 
-Go to **IAM** service.
+Now, try to go to **EC2** service. Can you make it? 
+
+Watch [Introduction to AWS IAM](https://www.youtube.com/watch?v=Ul6FW4UANGc)
+
+So what it does? Check the Introduction in the [docs](http://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html)
+
+Let's go to **IAM** service now.
+
+## Keys terms   
+#### Root user 
+Never use it for everyday work in AWS. Always create an admin account for yourself.    
+#### IAM users 
+Just users within your AWS account (doesn't have to be a human!).  
+#### Federated identity 
+Passwords and logins from other company can work with AWS. 
+#### Group 
+A collection of IAM users. Groups let you specify permissions for multiple users, which can make it easier to manage the permissions for those users. Here is more info how to [manage a group](http://docs.aws.amazon.com/IAM/latest/UserGuide/id_groups_manage.html)    
+#### Policy
+By default, users can't access anything in your account. You grant permissions to a user by creating a policy, which is a document that defines the effect, actions, resources, and optional conditions.  
+The following example shows a policy that grants permission to perform Amazon DynamoDB actions (dynamodb:*) on the Books table in the account 123456789012 within the us-east-2 region. 
+
+```json
+{
+  "Version": "2012-10-17",
+  "Statement": {
+    "Effect": "Allow",
+    "Action": "dynamodb:*",
+    "Resource": "arn:aws:dynamodb:us-east-2:123456789012:table/Books"
+  }
+}
+```
+
+![alt-text](http://docs.aws.amazon.com/IAM/latest/UserGuide/images/Relationship_Between_Entities_Example.diagram.png)
+
+### Exercise
+Create two new groups called **junior-devs** and **db-access**. Give **junior-devs** access to S3 and EC2, and give **db-access** group access to DynamoDB and EC2.  
+Can you access and a create table in DynamoDB? If no, why not? 
+
+Finish off with deleting the groups that you created. 
+
+# EC2
+
+
+[Back to top](#contents)  
 
 # Exercises
 1. Node.js app
