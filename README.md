@@ -140,7 +140,7 @@ Use the username and password that was given to you.
 
 > **Amazon Simple Storage Service (Amazon S3)** makes it simple and practical to collect, store, and analyze data - regardless of format – all at massive scale. S3 is **object storage** built to store and retrieve any amount of data from anywhere – web sites and mobile apps, corporate applications, and data from IoT sensors or devices.   
 
-### Keys terms   
+### Key terms   
 #### 99.999999999% durability
 If you store 10,000 objects with Amazon S3, you can on average expect to lose a single object once every 10,000,000 years.  
 #### 99.9% monthly uptime - availability
@@ -191,7 +191,7 @@ So what it does? Check the Introduction in the [docs](http://docs.aws.amazon.com
 
 Let's go to **IAM** service now.
 
-### Keys terms   
+### Key terms   
 #### Root user 
 Never use it for everyday work in AWS. Always create an admin account for yourself.    
 #### IAM users 
@@ -224,7 +224,44 @@ Can you access and a create table in DynamoDB? If no, why not?
 Finish off with deleting the groups that you created. 
 
 # EC2
-What is EC2? 
+
+> Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides secure, resizable **compute capacity** in the cloud. Amazon EC2 reduces the time required to obtain and boot **new server instances to minutes**, allowing you to **quickly scale capacity, both up and down**, as your computing requirements change. 
+
+### Key terms   
+#### Instance Types
+[Instance types](https://aws.amazon.com/ec2/instance-types/) comprise varying combinations of CPU, memory, storage, and networking capacity and give you the flexibility to choose the appropriate mix of resources for your applications.
+#### EC2 Pricing
+* [On-Demand](https://aws.amazon.com/ec2/pricing/on-demand/) - you pay for compute capacity **by the hour** with no long-term commitments or upfront payments
+* [Reserved Instances](https://aws.amazon.com/ec2/pricing/reserved-instances/pricing/) - provide you with a significant discount (up to 75%) compared to On-Demand instance pricing
+* [Spot Instances](https://aws.amazon.com/ec2/spot/pricing/) - allow you to bid on spare Amazon EC2 computing capacity for up to 90% off the On-Demand price
+
+### Exercise - [Launch Instance](https://aws.amazon.com/getting-started/tutorials/launch-a-virtual-machine/)
+ 
+1. go to EC2 in the console and click **Launch Instance**
+1. choose an Amazon Machine Image (AMI): In step 1 of the wizard, we recommend the Amazon Linux AMI (free-tier eligible).
+1. choose an instance type: we recommend the t2.micro (free-tier eligible).
+1. security group: In step 6, configure your virtual firewall. Choose existing SG. 
+1. launch instance: In step 7, review your instance configuration and choose "Launch".
+1. create a key pair: Select "Create a new key pair" and assign a name. The key pair file (.pem) will download automatically - save this in a safe place as we will later use this file to log in to the instance. Finally, choose "Launch Instances" to complete the set up.
+
+### Exercise - Connect to your instance
+Not sure how file permissions work on Linux? Check [here](https://www.pluralsight.com/blog/it-ops/linux-file-permissions)
+Follow step 3 from the [tutorial](https://aws.amazon.com/getting-started/tutorials/launch-a-virtual-machine/)
+
+When you finished, go ahead and terminate the server. 
+
+### Exercise - [Install LAMP stack](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/install-LAMP.html)
+1. create another server and use the same set of keys
+1. run `sudo yum update -y`
+1. `sudo yum install -y httpd24 php56 mysql56-server php56-mysqlnd` and check the IP address in the browser
+1. start Apache server `sudo service httpd start` and check the IP address in the browser
+1. configure the Apache web server to start at each system boot `sudo chkconfig httpd on`
+1. `chkconfig --list httpd`
+1. go to `/var/www/html`, create file `index.html` and add some HTML content
+1. go back to the browser and check the IP address
+1. create a simple PHP file in the Apache document root `<?php phpinfo(); ?>`
+1. go to the browser and add `/phpinfo.php`
+
 
 
 [Back to top](#contents)  
