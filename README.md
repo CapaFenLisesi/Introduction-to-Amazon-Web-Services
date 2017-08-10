@@ -99,7 +99,7 @@ Open a [new account](https://www.amazon.com/ap/signin?openid.assoc_handle=aws&op
 
 <p>[Back to top](#contents)</p>
 
-# Pricing and Free Tier 
+# Pricing and Free Tier    
 
 How much can you get for [free](https://aws.amazon.com/free/?nc2=h_l2_cc)? A lot!
 
@@ -107,7 +107,7 @@ What if you have to [pay](https://aws.amazon.com/pricing/services/)?
 
 Learn to use [Total Cost of Ownership (TCO) Calculators](https://aws.amazon.com/tco-calculator/) 
 
-<p>[Back to top](#contents)</p>
+[Back to top](#contents)  
 
 # Certification
 
@@ -115,15 +115,15 @@ What if you decide to become an AWS expert? You may want to become [certified](h
 
 But where to start? [AWS Certified Developer - Associate](https://aws.amazon.com/certification/certified-developer-associate/)
 
-<p>[Back to top](#contents)</p>
+[Back to top](#contents)  
 
-# Documentation
+# Documentation 
 
 Where to start? Look at the full [documentation](https://aws.amazon.com/documentation/?nc2=h_ql_ny_livestream_blu_t5) for every service. 
 
 The AWS Glossary is [here](http://docs.aws.amazon.com/general/latest/gr/glos-chap.html)  
 
-<p>[Back to top](#contents)</p>
+[Back to top](#contents)  
 
 # Console
 
@@ -133,7 +133,8 @@ https://cyf-scotland.signin.aws.amazon.com/console
  
 Use the username and password that was given to you. 
 
-<p>[Back to top](#contents)</p>
+[Back to top](#contents)  
+
 
 # S3
 
@@ -177,12 +178,12 @@ Go to http://docs.aws.amazon.com/AmazonS3/latest/dev/HostingWebsiteOnS3Setup.htm
 ### Exercise
 Now get one of your existing websites and make it live in a new bucket. 
 
-<p>[Back to top](#contents)</p>
+[Back to top](#contents)
 
 # EC2
 Now, try to go to **EC2** service.
 
-<p>[Back to top](#contents)</p>
+[Back to top](#contents)  
 
 # IAM 
 Go to **IAM** service.
@@ -208,7 +209,7 @@ Go to **IAM** service.
 [All Customer Success Stories](https://aws.amazon.com/solutions/case-studies/all/)
 [AWS Certifications](https://aws.amazon.com/certification/our-certifications/)
 
-<p>[Back to top](#contents)</p>
+[Back to top](#contents)
 
 ### Others
 [5 Numbers That Illustrate the Mind-Bending Size of Amazon's Cloud](https://www.bloomberg.com/news/2014-11-14/5-numbers-that-illustrate-the-mind-bending-size-of-amazon-s-cloud.html)  
