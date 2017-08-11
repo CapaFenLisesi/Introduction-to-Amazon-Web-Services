@@ -262,12 +262,27 @@ When you finished, go ahead and terminate the server.
 1. create a simple PHP file in the Apache document root `<?php phpinfo(); ?>`
 1. go to the browser and add `/phpinfo.php`
 
+### Excercise - Setup Node.js
+Plan A is to use [this](https://nodejs.org/en/download/package-manager/#enterprise-linux-and-fedora)
+1. start a new server
+1. run `node` what do you see? 
+1. run `curl --silent --location https://rpm.nodesource.com/setup_8.x | sudo bash -`
+1. then `sudo yum -y install nodejs`
+1. run `node` now
+
+Plan B is to use [this](http://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/setting-up-node-on-ec2-instance.html)
+
+### Exercise - Setup Express app
+1. `sudo npm install -g express-generator@4`
+1. `sudo express foo`
+1. `cd foo`
+1. `sudo npm install` 
+1. `sudo PORT=80 npm start`
 
 
 [Back to top](#contents)  
 
 # Exercises
-1. Node.js app
 1. Wordpress on EC2
 
 # Resources
