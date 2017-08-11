@@ -57,6 +57,7 @@ Watch the [AWS Tech Essentials](#resources) course later on.
 How big is the market and what type of [jobs](http://uk.dice.com/index.php?SearchMode=StandardSearch&SearchFilter=SearchFilter&Mode=AdvertSearch&lang=en&AdvertShortlistLimit=50&SearchTerms=AWS&ClientTypeFilter_1=1&ClientTypeFilter_2=2&) can you get? 
 - developer 
 - deployment
+- system maintenance 
 - architecture design
 - startup
 
@@ -65,6 +66,7 @@ We don't have enough time here. Some of the services that you use on a daily bas
 - [Airbnb](https://aws.amazon.com/solutions/case-studies/airbnb/)
 - [Spotify](https://aws.amazon.com/solutions/case-studies/spotify/)
 - [Netflix](https://aws.amazon.com/solutions/case-studies/netflix/)
+- [Koffer](www.koffer.io)
 
 If it's good for them, it can also be good for you. Just be careful. 
 
