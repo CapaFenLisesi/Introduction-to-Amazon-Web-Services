@@ -304,6 +304,16 @@ Plan B is to use [this](http://docs.aws.amazon.com/sdk-for-javascript/v2/develop
 1. `sudo npm install` 
 1. `sudo PORT=80 npm start`
 
+### Exercise - ftp
+1. dowload FileZilla
+1. delete the Express app
+1. create Express app locally
+1. make changes to the project 
+1. run the project locally
+1. upload (maybe everything exept `node_modules` folder and the run `npm install on server`)
+1. port?
+1. check in the browser
+1. make small changes locally, upload and verify in the browser
 
 [Back to top](#contents)  
 
