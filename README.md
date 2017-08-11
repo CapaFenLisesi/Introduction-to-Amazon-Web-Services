@@ -290,6 +290,13 @@ server.listen(80, function() {
 
 Plan B is to use [this](http://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/setting-up-node-on-ec2-instance.html)
 
+### Excercise - Create AMI
+1. repeat the steps to spin up Node.js server
+1. create AMI
+1. delete the server
+1. create a new server, but this time use [AMI](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AMIs.html)
+1. check that everything works as expected 
+
 ### Exercise - Setup Express app
 1. `sudo npm install -g express-generator@4`
 1. `sudo express foo`
