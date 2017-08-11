@@ -158,7 +158,7 @@ A container for stored objects. Every object is contained in a bucket. For examp
 1. type a letter **t**. What happened? 
 1. type **test** and hit create. What happened? 
 1. type **test%^$**. What happened? 
-1. use the following format for the bucket name **cyf-{YOUR_NAME}-{TODAYS_DATE}** or anything that works
+1. use the following format for the bucket name **cyf-{YOUR_USERNAME}-{TODAYS_DATE}** or anything that works
 1. create a new file inside any folder and call it **index.html**. Add a simple h1 tag with **Hello World!** inside.
 1. upload to S3
 1. now try to access the file in the browser. Did it work?
@@ -197,7 +197,7 @@ Let's go to **IAM** service now.
 #### Root user 
 Never use it for everyday work in AWS. Always create an admin account for yourself.    
 #### IAM users 
-Just users within your AWS account (doesn't have to be a human!).  
+Users within your AWS account (doesn't have to be a human!).  
 #### Federated identity 
 Passwords and logins from other company can work with AWS. 
 #### Group 
@@ -220,7 +220,7 @@ The following example shows a policy that grants permission to perform Amazon Dy
 ![alt-text](http://docs.aws.amazon.com/IAM/latest/UserGuide/images/Relationship_Between_Entities_Example.diagram.png)
 
 ### Exercise
-Create two new groups called **junior-devs** and **db-access**. Give **junior-devs** access to S3 and EC2, and give **db-access** group access to DynamoDB and EC2.  
+Create two new groups called **junior-devs-{YOUR_USERNAME}** and **db-access-{YOUR_USERNAME}**. Give **junior-devs** access to S3 and EC2, and give **db-access** group access to DynamoDB and EC2.  
 Can you access and a create table in DynamoDB? If no, why not? 
 
 Finish off with deleting the groups that you created. 
