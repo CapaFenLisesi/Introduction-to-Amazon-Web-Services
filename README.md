@@ -273,6 +273,7 @@ When you finished, go ahead and terminate the server.
 1. then `sudo yum -y install nodejs`
 1. run `node` now
 1. create a `server.js` and add a basic http server
+1. delete the server when finished
 
 ```javascript
 const http = require('http');
