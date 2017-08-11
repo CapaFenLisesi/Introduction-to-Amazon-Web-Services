@@ -246,9 +246,9 @@ Finish off with deleting the groups that you created.
 1. launch instance: In step 7, review your instance configuration and choose "Launch".
 1. create a key pair: Select "Create a new key pair" and assign a name. The key pair file (.pem) will download automatically - save this in a safe place as we will later use this file to log in to the instance. Finally, choose "Launch Instances" to complete the set up.
 
-### Exercise - Connect to your instance
+### Exercise - [Connect to your instance](https://aws.amazon.com/getting-started/tutorials/launch-a-virtual-machine/)
 Not sure how file permissions work on Linux? Check [here](https://www.pluralsight.com/blog/it-ops/linux-file-permissions)
-Follow step 3 from the [tutorial](https://aws.amazon.com/getting-started/tutorials/launch-a-virtual-machine/)
+Follow step 3 from the tutorial.
 
 When you finished, go ahead and terminate the server. 
 
@@ -265,8 +265,8 @@ When you finished, go ahead and terminate the server.
 1. go to the browser and add `/phpinfo.php`
 1. delete the server
 
-### Excercise - Setup Node.js
-Plan A is to use [this](https://nodejs.org/en/download/package-manager/#enterprise-linux-and-fedora)
+### Excercise - [Setup Node.js](https://nodejs.org/en/download/package-manager/#enterprise-linux-and-fedora)
+
 1. start a new server
 1. run `node` what do you see? 
 1. run `curl --silent --location https://rpm.nodesource.com/setup_8.x | sudo bash -`
@@ -278,8 +278,8 @@ Plan A is to use [this](https://nodejs.org/en/download/package-manager/#enterpri
 const http = require('http');
 
 const server = http.createServer(function(req, res) {
-        let time = Date.now();
-        res.end(`<h1>Thanks for visiting at ${time}.</h1>`);
+    let time = Date.now();
+    res.end(`<h1>Thanks for visiting at ${time}.</h1>`);
 });
 
 server.listen(80, function() {
