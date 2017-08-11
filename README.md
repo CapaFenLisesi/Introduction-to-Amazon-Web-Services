@@ -261,8 +261,9 @@ When you finished, go ahead and terminate the server.
 1. `chkconfig --list httpd`
 1. go to `/var/www/html`, create file `index.html` and add some HTML content
 1. go back to the browser and check the IP address
-1. create a simple PHP file in the Apache document root `<?php phpinfo(); ?>`
+1. create a simple PHP file called `phpinfo.php` in the Apache document root `<?php phpinfo(); ?>`
 1. go to the browser and add `/phpinfo.php`
+1. delete the server
 
 ### Excercise - Setup Node.js
 Plan A is to use [this](https://nodejs.org/en/download/package-manager/#enterprise-linux-and-fedora)
