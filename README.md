@@ -29,7 +29,7 @@ Watch the course in the [Resources](#resources) section.
 ### So what is Amazon Web Services? 
 
 According to [Wikipedia](https://en.wikipedia.org/wiki/Amazon_Web_Services):  
-> Amazon Web Services (AWS) describes both a **technology** and **a company**. The company AWS is a subsidiary of **Amazon.com** and provides **on-demand cloud computing platforms to individuals, companies and governments, on a paid subscription basis with a free-tier option available for 12 months**. The technology allows subscribers to have at their disposal **a full-fledged virtual cluster of computers, available all the time, through the internet**. AWS's version of virtual computers have most of the attributes of a real computer including hardware (CPU(s) & GPU(s) for processing, local/RAM memory, hard-disk/SSD storage); a choice of operating systems; networking; and pre-loaded application software such as web servers, databases, CRM, etc. Each AWS system also virtualizes its console I/O (keyboard, display, and mouse), allowing AWS subscribers to connect to their AWS system using a modern browser. The browser acts as a window into the virtual computer, letting subscribers log-in, configure and use their virtual systems just as they would a real physical computer. They can choose to deploy their AWS systems to provide internet-based services for their own and their customers' benefit.  
+> Amazon Web Services (AWS) describes both a **technology** and **a company**. The company AWS is a subsidiary of **Amazon.com** and provides **on-demand cloud computing platforms to individuals, companies and governments, on a paid subscription basis with a free-tier option available for 12 months**. The technology allows subscribers to have at their disposal **a full-fledged virtual cluster of computers, available all the time, through the internet**.   
 
 Ok, but in plain English please:  
 > It's very much analogous to **a huge, general-purpose computer** said Josh Stella...
@@ -46,12 +46,12 @@ Watch the [AWS Tech Essentials](#resources) course later on.
 
 ### What can YOU do with AWS? 
 - host your own website
-- provide API
+- create API
 - process data on servers (computations)
 - host a small application
 - host a high traffic service
-- host WordPress website
-- you name it
+- host WordPress, Drupal, etc. website
+- endless possibilities
 
 ### Jobs with AWS
 How big is the market and what type of [jobs](http://uk.dice.com/index.php?SearchMode=StandardSearch&SearchFilter=SearchFilter&Mode=AdvertSearch&lang=en&AdvertShortlistLimit=50&SearchTerms=AWS&ClientTypeFilter_1=1&ClientTypeFilter_2=2&) can you get? 
