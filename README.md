@@ -272,6 +272,20 @@ Plan A is to use [this](https://nodejs.org/en/download/package-manager/#enterpri
 1. run `curl --silent --location https://rpm.nodesource.com/setup_8.x | sudo bash -`
 1. then `sudo yum -y install nodejs`
 1. run `node` now
+1. create a `server.js` and add a basic http server
+
+```javascript
+const http = require('http');
+
+const server = http.createServer(function(req, res) {
+        let time = Date.now();
+        res.end(`<h1>Thanks for visiting at ${time}.</h1>`);
+});
+
+server.listen(80, function() {
+   console.log("Server listening on port 80.");    
+});
+```
 
 Plan B is to use [this](http://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/setting-up-node-on-ec2-instance.html)
 
